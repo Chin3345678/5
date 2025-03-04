@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 480px;
+}
+
+.intro, .result {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+#startButton {
+  background-color: #ffb74d;
+  color: white;
+}
+
+.option {
+  display: block;
+  background-color: #e0f7fa;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 8px 0;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.option:hover {
+  background-color: #b2ebf2;
+}
+
+.option.selected {
+  background-color: #81d4fa;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#nextButton {
+  background-color: #4caf50;
+  color: white;
+}
+
+#finishButton {
+  background-color: #ff7043;
+  color: white;
+}
+
+#restartButton {
+  background-color: #42a5f5;
+  color: white;
+}
+
+#characterImage {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  margin: 16px 0;
+}

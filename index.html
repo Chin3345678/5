@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content="透過家族旅行的互動情境測驗，探索你是哪位動漫爸爸代表的人格類型！">
+  <title>家族旅行 MBTI 心理測驗</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="intro" class="intro">
+      <h2>即將帶家人們來一趟旅行</h2>
+      <button id="startButton">開始旅行</button>
+    </div>
+
+    <div id="quiz" style="display:none;">
+      <h2 id="scenarioText">Loading...</h2>
+      <div id="options"></div>
+      <div class="buttons">
+        <button id="nextButton" disabled>下一個情境</button>
+        <button id="finishButton" style="display:none;">完成測驗</button>
+      </div>
+    </div>
+
+    <div id="result" class="result" style="display:none;">
+      <h2 id="resultTitle"></h2>
+      <img id="characterImage" src="" alt="角色圖片" />
+      <p id="resultDescription"></p>
+      <button id="restartButton">重新測驗</button>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
