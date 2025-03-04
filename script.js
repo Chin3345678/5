@@ -50,27 +50,27 @@ const characterProfiles = {
   ESFJ: {
     name: "野原廣志 (ESFJ)",
     description: "擁有 ESFJ 的友善個性，是團體中的最佳支持者。",
-    image: "images/hiroshi.png"
+    image: "https://chin3345678.github.io/5/images/hiroshi.png"
   },
   INTJ: {
     name: "毛利小五郎 (INTJ)",
     description: "展現 INTJ 的冷靜與策略性，縝密思考。",
-    image: "images/kogoro.png"
+    image: "https://chin3345678.github.io/5/images/kogoro.png"
   },
   ISTJ: {
     name: "櫻廣志 (ISTJ)",
     description: "秉持踏實與責任感，確保大小事有條不紊。",
-    image: "images/sakura.png"
+    image: "https://chin3345678.github.io/5/images/sakura.png"
   },
   ENFP: {
     name: "漩渦鳴人 (ENFP)",
     description: "充滿熱情，用積極態度影響身邊的人。",
-    image: "images/naruto.png"
+    image: "https://chin3345678.github.io/5/images/naruto.png"
   },
   ISFJ: {
     name: "佛傑·佛傑 (ISFJ)",
     description: "溫柔體貼，充分體現照顧與保護特質。",
-    image: "images/loidy.png"
+    image: "https://chin3345678.github.io/5/images/loidy.png"
   }
 };
 
