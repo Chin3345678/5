@@ -1,8 +1,7 @@
 const scenarios = [
   {
     text: "🌅 清晨，家族旅行的第一天，你被鳥鳴聲喚醒。你會怎麼開始這段旅程？",
-    background: "https://chin3345678.github.io/5/images/windowview.png"
-    options: [
+        options: [
       { text: "📅 確認行程並整理裝備。", type: "INTJ" },
       { text: "🥐 準備驚喜早餐給家人！", type: "ESFJ" },
       { text: "🎶 放音樂讓早晨充滿活力！", type: "ENFP" },
