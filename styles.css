@@ -14,7 +14,6 @@ body {
   z-index: 0;
 }
 
-/* 背景圖片固定在最底層 */
 body::before {
   content: "";
   position: fixed;
