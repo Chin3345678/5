@@ -48,27 +48,27 @@ const scenarios = [
 
 const characterProfiles = {
   ESFJ: {
-    name: "野原廣志 (ESFJ)",
+    name: "蠟筆小新-野原廣志 (ESFJ)",
     description: "擁有 ESFJ 的友善個性，是團體中的最佳支持者。",
     image: "https://chin3345678.github.io/5/images/hiroshi.png"
   },
   INTJ: {
-    name: "毛利小五郎 (INTJ)",
+    name: "名偵探柯南-毛利小五郎 (INTJ)",
     description: "展現 INTJ 的冷靜與策略性，縝密思考。",
     image: "https://chin3345678.github.io/5/images/kogoro.png"
   },
   ISTJ: {
-    name: "櫻廣志 (ISTJ)",
+    name: "櫻桃小丸子-櫻廣志 (ISTJ)",
     description: "秉持踏實與責任感，確保大小事有條不紊。",
     image: "https://chin3345678.github.io/5/images/sakura.png"
   },
   ENFP: {
-    name: "漩渦鳴人 (ENFP)",
+    name: "火影忍者-漩渦鳴人 (ENFP)",
     description: "充滿熱情，用積極態度影響身邊的人。",
     image: "https://chin3345678.github.io/5/images/naruto.png"
   },
   ISFJ: {
-    name: "佛傑·佛傑 (ISFJ)",
+    name: "間諜家家酒-黃昏 (ISFJ)",
     description: "溫柔體貼，充分體現照顧與保護特質。",
     image: "https://chin3345678.github.io/5/images/loidy.png"
   }
